@@ -8,7 +8,11 @@
 import Foundation
 import SQLite
 
-
+/// macOS SQLite3 database managing user wallpaper preferences.
+///
+/// See the below blog post for more information about how this database was reversed engineered.
+/// https://www.tech-otaku.com/mac/setting-desktop-image-macos-mojave-from-command-line/
+/// 
 let DESKTOPPICTURE_DB_RELPATH = "Library/Application Support/Dock/desktoppicture.db"
 
 enum Errors: Error {
